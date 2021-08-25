@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar{
+    max-width: 1500px;
+    margin: auto;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("tt.jpg");
+    height: 222vh;
+    background-position:0vh;
+    background-size:cover;
+}
+ul{
+    float: right;
+    text-decoration: none;
+    list-style-type: none;
+}
+ul li{
+    display: inline-block;
+    margin-top: 20px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: ivory;
+    font-size: 1.5em;
+    border: solid  2px #cbb4a6 transparent;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: 0.5s ease;
+}
+ul li a:hover{
+    background-color: #cfc58c;
+    color: #dbd8d5;
+}
+#contact{
+    margin-right: 1em;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.title{
+    font-size: xx-large;
+    color: whitesmoke;
+    text-shadow: black;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.button{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 30px;
+    border: solid 1px white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin: 0 2px;
+    transition: 0.6s;
+}
+.btn:hover{
+    background-color: white;
+    color: teal;
+}

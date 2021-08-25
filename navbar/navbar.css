@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(resim.jpg);
+    background-size: cover;
+    background-position: bottom;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+header{
+    background: rgb(182, 79, 139);
+    image-resolution: 50%;
+    text-align: center;
+
+}
+header ul{
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+}
+header ul li{
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active, header ul li:hover{
+   background: rgb(82, 67, 221);
+   border-radius: 10px;
+}
+header .fas{
+    margin-right: 8px;
+}
+.menu-1{
+    display:none;
+}
+header ul li:hover #musa{
+    display: block;
+    position: absolute;
+    background: rgb(82, 67, 221);
+    margin-top: 15px;
+    margin-left: -15px;
+    font-size: 10px;
+}
+
+header ul li:hover .menu ul {
+    display: block;
+}
